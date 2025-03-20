@@ -6,9 +6,6 @@ const cors = require('cors');
 const { dbConnection } = require('./database/config');
 
 
-const __filename = fileURLToPath(import.meta.url);
-
-const __dirname = path.dirname(__filename);
 
 //Crear el servidor de express
 const app = express();
